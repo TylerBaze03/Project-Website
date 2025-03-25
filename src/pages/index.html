@@ -11,7 +11,7 @@
     <!--JS to implement the header bar and nav-->
     <div class="topnav centered-block-x">
         <a class="active" href="index.html">Home</a>
-        <a href="#news">Projects</a>
+        <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
     </div>
 </header>
@@ -35,11 +35,25 @@
         </h1>
         <!-- Bio draft-->
         <div class = "container pad-Bottom pText ">
-            <img src = "../images/LinkedIn_Image.jpg" alt="Linkedin Image"class = "image">
+            <div class = "slideshow-container image">
+                <div class = "mySlides fade">
+                    <img src = "../images/LinkedIn_Image.jpg">
+                </div>
+                <div class = "mySlides fade">
+                    <img src = "../images/Funny_Photo.png" width="200px" height="200px">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+
+            <script src="../js/slideShow.js"></script>
             Hello! My name is Tyler Bazemore, I am 22 years old and currently getting a degree in Software Development from Eastern Florida State College. 
             I love the process of coding and making my own projects and this website is also one of them to better my self at languages and frameworks such as HTML, CSS, JavaScript and React.
             <hr style="opacity:0">
-            This website will display some of the different projects I have from from games to different encryption ciphers. 
+            This website will display some of the different projects I have from from games to different encryption ciphers. I hope to continuously add to and refine the different project as 
+            well as this website it self as my skills in frontend development, and programming in general, improve.
+            <hr style="opacity:0">
+            I hope this gives you an insight to my coding interests and style and even how it may have improved over the span of the projects that are added and edited. 
         </div>
     </div>
     
